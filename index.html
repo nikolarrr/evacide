@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Evacide</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <header>
+<p>EVACIDE</p>
+</header>
+ <!-- folder01 -->
+<div id="fullfolder">
+  <div id="close-button" class="inactive">
+  <img src="assets/image/close-button.svg">
+  </div>
+  <iframe id="id-book" class="inactive" src="book.html"> </iframe>
+ <div>
+ <img  id="folder-icon" src="assets/image/doc-icon.svg"/>
+ </div>
+</div>
+ <!-- folder01-end -->
+
+  <!-- folder02 -->
+<div id="fullfolder">
+  <div id="close-button3" class="inactive">
+  <img src="assets/image/close-button.svg">
+  </div>
+  <iframe id="folder02" class="inactive" src="folder02.html"> </iframe>
+ <div>
+ <img id="folder-icon2" src="assets/image/doc-icon.svg" />
+ </div>
+</div>
+ <!-- folder02-end -->
+
+
+ <!-- chatbot start -->
+ <img src="assets/image/chat-icon.svg" id="chat-icon">
+  <div id="chatbot-full" class="inactive">
+   <div id="close-button2">
+   <img src="assets/image/close-button.svg">
+   </div>
+  <div id="chatbot-container">
+    <div id="chatbot-messages">
+        <p>yo, did you get your challange yet?</p>
+    </div>
+    <div id="chatbot-input">
+      <form>
+        <input  type="text" id="chatbot-input-field" placeholder="Type your message here..."  onkeydown="handleKeyPress(event)">
+        <button type="button" id="chatbot-submit-button" onclick="submitMessage()">Send</button>
+      </form>
+    </div>
+  
+  </div>
+</div>
+<!-- chatbot end -->
+  <script src="script.js"></script>
+</body>
+</html>

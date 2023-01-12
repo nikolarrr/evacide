@@ -1,0 +1,16 @@
+
+body {
+    font-family:  monospace;
+    text-align: left;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:  monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.red-text {
+    color:rgb(203, 77, 77);
+}
+
